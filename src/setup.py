@@ -6,9 +6,9 @@ Python: 3.9.1
 Fecha: 16 Junio 2021
 """
 
-
 from distutils.core import setup
 import py2exe
+
 setup(
 name = 'Payload',
 description = 'Python-based App',
@@ -20,3 +20,5 @@ options = {'py2exe': {'bundle_files': 2,
                       ,}},
 zipfile = None,
 )
+
+
